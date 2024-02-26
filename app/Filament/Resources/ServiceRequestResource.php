@@ -29,7 +29,6 @@ class ServiceRequestResource extends Resource
         return $form
             ->schema([
                 Forms\Components\TextInput::make('customerName')
-                    ->icon('heroicon-m-user')
                     ->iconColor('primary')
                     ->searchable(),
                 Forms\Components\TextInput::make('customerEmail')
