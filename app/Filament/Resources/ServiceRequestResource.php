@@ -29,15 +29,8 @@ class ServiceRequestResource extends Resource
         return $form
             ->schema([
                 Forms\Components\TextInput::make('customerName')
-                    ->iconColor('primary')
                     ->searchable(),
-                Forms\Components\TextInput::make('customerEmail')
-                    ->copyable()
-                    ->copyMessage('Email address copied')
-                    ->copyMessageDuration(500)
-                    ->icon('heroicon-m-envelope')
-                    ->iconColor('primary')
-                    ->searchable(),
+                Forms\Components\TextInput::make('customerEmail'),
                 Forms\Components\TextInput::make('serviceRequested')
                     ->required()
                     ->maxLength(255),
