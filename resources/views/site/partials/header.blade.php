@@ -4,10 +4,18 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-     <meta name="description" content="Clouds9 Tech offers top-notch Web & Mobile App Design, Multimedia, Graphics Design, Digital Marketing, Social Media Management and Network Security services. Transform your digital presence with our expertise.">
-    <meta name="keywords" content="Clouds9 Tech, Web design, Mobile app design, Multimedia, Graphics design, Network security, IT services, Digital Marketing, Social Media Management">
-    <meta name="author" content="Clouds9 Tech">
-
+     <meta name="description" content="Legolas Technologies offers top-notch Web & Mobile App Design, Multimedia, Graphics Design, Digital Marketing, Social Media Management and Network Security services. Transform your digital presence with our expertise.">
+    <meta name="keywords" content="Legolas Technologies, Web design, Mobile app design, Multimedia, Graphics design, Network security, IT services, Digital Marketing, Social Media Management">
+    <meta name="author" content="Legolas Technologies">
+    <meta name="description" content="Legolas Technologies">
+    <meta name="description" content="Website">
+    <meta name="description" content="Mobile">
+    <meta name="description" content="App">
+    <meta name="description" content="Computer">
+    <meta name="description" content="Tovuti">
+    <meta name="description" content="www">
+    <meta name="description" content="Joshua Jayrous">
+    <meta name="description" content="Multi Media">
     <meta name="description" content="This site has been created by Cloud9 Tech Team under best developers and is fully funcioning. Joshua Jayrous - Chief Designer and Programmer, Edrick Katabarula - Principle Designer and Editor, Erick Alex - Security engineer, Briyson Lema - Designer and Programmer">
     
     <meta content="" name="keywords">
