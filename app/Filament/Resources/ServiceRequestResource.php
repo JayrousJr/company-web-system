@@ -28,8 +28,7 @@ class ServiceRequestResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('customerName')
-                    ->searchable(),
+                Forms\Components\TextInput::make('customerName'),
                 Forms\Components\TextInput::make('customerEmail'),
                 Forms\Components\TextInput::make('serviceRequested')
                     ->required()
