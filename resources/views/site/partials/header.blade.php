@@ -82,8 +82,8 @@
     <header id="header" class="fixed-top header-inner-pages">
         <div class="container d-flex align-items-center">
 
-            <!-- <h1 class="logo me-auto"><a href="index.html">{{env('APP_NAME')}}</a></h1> -->
-            <a href="index.html" class="logo me-auto"><img src="/storage/img/logo/logo.webp" alt="" class="img-fluid"></a>
+            {{-- <!-- <h1 class="logo me-auto"><a href="index.html">{{env('APP_NAME')}}</a></h1> --> --}}
+            <a href="{{route('home')}}" class="logo me-auto"><img src="/storage/img/logo/logo.webp" alt="" class="img-fluid"></a>
 
             <nav id="navbar" class="navbar">
                 <ul>
