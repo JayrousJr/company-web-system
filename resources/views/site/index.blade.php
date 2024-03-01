@@ -343,7 +343,7 @@
                                 class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                                The trust is one thing we are building to our custoers hearts, we are not ready to lose the trust fro our customers. You can trust us with your Job.
+                                The trust is one thing we are building to our customers hearts, we are not ready to lose the trust from our customers. You can trust us with your Job.
                             </p>
                         </div>
                     </li>
