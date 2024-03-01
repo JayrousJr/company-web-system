@@ -40,7 +40,7 @@ class ServiceRequestController extends Controller
 
                 $mailto = 'info@cloudstechn.com';
                 Mail::to($mailto)->send(new ServiceRequested($data));
-                Mail::to($data->customerEmail)->send(new ServiceRequestedReply($data));
+                // Mail::to($data->customerEmail)->send(new ServiceRequestedReply($data));
                 DB::commit();
                 session()->flash('success', 'Thank you for requesting service at TechClouds, We will come back to you very soon');
                 return redirect()->route('home');
