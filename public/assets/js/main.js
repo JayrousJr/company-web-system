@@ -247,7 +247,7 @@
      * Portfolio details slider
      */
     new Swiper(".portfolio-details-slider", {
-        speed: 200,
+        speed: 400,
         loop: true,
         autoplay: {
             delay: 100,
