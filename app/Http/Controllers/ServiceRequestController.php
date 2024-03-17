@@ -38,11 +38,11 @@ class ServiceRequestController extends Controller
                 $data->servicetDescription = htmlspecialchars($request->input('servicetDescription'));
                 $data->save();
 
-                $mailto = 'info@cloudstechn.com';
+                $mailto = 'info@legolas.tech';
                 Mail::to($mailto)->send(new ServiceRequested($data));
                 Mail::to($data->customerEmail)->send(new ServiceRequestedReply($data));
                 DB::commit();
-                session()->flash('success', 'Thank you for requesting service at TechClouds, We will come back to you very soon');
+                session()->flash('success', 'Thank you for requesting service at Legolas Technologies, We will come back to you very soon');
                 return redirect()->route('home');
             } catch (\Exception $e) {
                 DB::rollback();
