@@ -1,14 +1,22 @@
 <x-mail::message>
+# Email received From {{$name}}
+<x-mail::panel>
+    <strong>Subject</strong> <br>
+    {{$subject}}<br>
+
+    <strong>Message</strong><br>
+    {{$emessage}}
+</x-mail::panel>
 
 
-Hello, {{config('app.name')}}. We have received a new message from <strong>{{$name}}</strong>,<br>
-Message saying <br>
-<strong>{{$emessage}}</strong> <br>
-Sender Email {{$email}} <br>
-<x-mail::button :url="'{{config('company.link')}}'">
+This Message was Sent from {{$email}}.<br>
+By {{$name}}
+
+
+<x-mail::button :url="'https://legolas.tech/admin'">
 Visit Website
 </x-mail::button>
 
-Thanks,<br>
+Joshua Jayrous, CEO<br>
 {{ config('app.name') }}
 </x-mail::message>

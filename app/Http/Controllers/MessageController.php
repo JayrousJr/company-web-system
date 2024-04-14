@@ -25,9 +25,7 @@ class MessageController extends Controller
         $validator = Validator::make($request->all(), $rules);
         if ($validator->fails()) {
             return redirect('/#contact')->withErrors($validator)->withInput();
-        } else {
-            try {
-                DB::beginTransaction();
+        } 
                 $data = new Message();
                 $data->name = $request->input('name');
                 // $data->subject = $request->input('subject');
@@ -43,11 +41,6 @@ class MessageController extends Controller
                 DB::commit();
                 session()->flash('success', 'Thank you for contacting Legolas Technologies, Your Message is received successiful!!');
                 return redirect()->route('home');
-            } catch (\Exception $e) {
-                DB::rollBack();
-                session()->flash('error', 'Sorry. There is a Technical Problem in sending Message, Our technical Pasonnel team in handling it down. Service will be up very soon');
-                return redirect()->route('home');
-            }
-        }
+           
     }
 }
