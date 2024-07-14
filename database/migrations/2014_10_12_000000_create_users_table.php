@@ -18,7 +18,6 @@ return new class extends Migration
             $table->boolean('isTeamMember')->nullable()->default(0);
             $table->string('profession')->nullable();
             $table->string('role')->nullable();
-            // $table->string('');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

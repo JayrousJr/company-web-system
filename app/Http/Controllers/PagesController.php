@@ -15,8 +15,6 @@ class PagesController extends Controller
     {
         // Get Visitors
         $visitorIP = $request->ip();
-        // $visitorLocation = $request->locale_get_region();
-        // $visitorLocation = $request->platform();
         $visitor = Visitor::firstorCreate(['ip' => $visitorIP]);
         $visitor->increment('request');
         $visitor->save();

@@ -1,14 +1,16 @@
 <x-mail::message>
 # Email received From {{$name}}
 <x-mail::panel>
-    <strong>Subject</strong> <br>
+    <strong>Subject</strong><br>
     {{$subject}}<br>
+
+</x-mail::panel>
+
+<x-mail::panel>
 
     <strong>Message</strong><br>
     {{$emessage}}
 </x-mail::panel>
-
-
 This Message was Sent from {{$email}}.<br>
 By {{$name}}
 
